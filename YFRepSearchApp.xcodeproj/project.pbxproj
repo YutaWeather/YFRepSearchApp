@@ -97,10 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				A4477D0927C46C9400065B53 /* Main.storyboard */,
+				A48BFFF927C6FDBC00983FE5 /* YFContentCell.swift */,
 				A4477D1C27C46CEF00065B53 /* YFTitleLabel.swift */,
 				A4477D1E27C4748200065B53 /* YFImageView.swift */,
 				A4EDA21827C5CAA500F279D2 /* YFTextField.swift */,
-				A48BFFF927C6FDBC00983FE5 /* YFContentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
