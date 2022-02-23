@@ -13,13 +13,13 @@
 		A4477D0B27C46C9400065B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4477D0927C46C9400065B53 /* Main.storyboard */; };
 		A4477D0D27C46C9800065B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4477D0C27C46C9800065B53 /* Assets.xcassets */; };
 		A4477D1027C46C9800065B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4477D0E27C46C9800065B53 /* LaunchScreen.storyboard */; };
-		A4477D1B27C46CD500065B53 /* YFContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D1A27C46CD500065B53 /* YFContentCell.swift */; };
 		A4477D1D27C46CEF00065B53 /* YFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D1C27C46CEF00065B53 /* YFTitleLabel.swift */; };
 		A4477D1F27C4748200065B53 /* YFImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D1E27C4748200065B53 /* YFImageView.swift */; };
 		A4477D2127C477A900065B53 /* YFUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D2027C477A900065B53 /* YFUser.swift */; };
 		A4477D2327C47C5200065B53 /* YFAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D2227C47C5200065B53 /* YFAPIManager.swift */; };
 		A4477D2527C47D4B00065B53 /* YFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D2427C47D4B00065B53 /* YFError.swift */; };
 		A4477D2827C4830C00065B53 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4477D2727C4830C00065B53 /* UIViewController+Ext.swift */; };
+		A48BFFFA27C6FDBC00983FE5 /* YFContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A48BFFF927C6FDBC00983FE5 /* YFContentCell.swift */; };
 		A4EDA21927C5CAA500F279D2 /* YFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4EDA21827C5CAA500F279D2 /* YFTextField.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,13 +32,13 @@
 		A4477D0C27C46C9800065B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4477D0F27C46C9800065B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4477D1127C46C9800065B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4477D1A27C46CD500065B53 /* YFContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFContentCell.swift; sourceTree = SOURCE_ROOT; };
 		A4477D1C27C46CEF00065B53 /* YFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTitleLabel.swift; sourceTree = "<group>"; };
 		A4477D1E27C4748200065B53 /* YFImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFImageView.swift; sourceTree = "<group>"; };
 		A4477D2027C477A900065B53 /* YFUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFUser.swift; sourceTree = "<group>"; };
 		A4477D2227C47C5200065B53 /* YFAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFAPIManager.swift; sourceTree = "<group>"; };
 		A4477D2427C47D4B00065B53 /* YFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFError.swift; sourceTree = "<group>"; };
 		A4477D2727C4830C00065B53 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		A48BFFF927C6FDBC00983FE5 /* YFContentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFContentCell.swift; sourceTree = "<group>"; };
 		A4EDA21827C5CAA500F279D2 /* YFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YFTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,10 +97,10 @@
 			isa = PBXGroup;
 			children = (
 				A4477D0927C46C9400065B53 /* Main.storyboard */,
-				A4477D1A27C46CD500065B53 /* YFContentCell.swift */,
 				A4477D1C27C46CEF00065B53 /* YFTitleLabel.swift */,
 				A4477D1E27C4748200065B53 /* YFImageView.swift */,
 				A4EDA21827C5CAA500F279D2 /* YFTextField.swift */,
+				A48BFFF927C6FDBC00983FE5 /* YFContentCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,8 +194,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4477D1B27C46CD500065B53 /* YFContentCell.swift in Sources */,
 				A4477D2327C47C5200065B53 /* YFAPIManager.swift in Sources */,
+				A48BFFFA27C6FDBC00983FE5 /* YFContentCell.swift in Sources */,
 				A4477D2827C4830C00065B53 /* UIViewController+Ext.swift in Sources */,
 				A4477D1D27C46CEF00065B53 /* YFTitleLabel.swift in Sources */,
 				A4EDA21927C5CAA500F279D2 /* YFTextField.swift in Sources */,

@@ -2,7 +2,7 @@
 //  YFContentCell.swift
 //  YFRepSearchApp
 //
-//  Created by Yuta Fujii on 2022/02/22.
+//  Created by Yuta Fujii on 2022/02/24.
 //
 
 import UIKit
